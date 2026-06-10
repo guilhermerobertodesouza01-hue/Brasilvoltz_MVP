@@ -12,6 +12,16 @@ O projeto foi desenvolvido com base nos princípios do Software Livre e Open Sou
 
 ---
 
+## 🌐 Demonstração Online
+
+A versão demonstrativa do BrazilVoltz está disponível através do GitHub Pages:
+
+**https://guilhermerobertodesouza01-hue.github.io/Brasilvoltz_MVP/**
+
+O acesso pode ser realizado diretamente pelo navegador, sem necessidade de instalação.
+
+---
+
 ## 🎯 Problema que o Projeto Resolve
 
 Com o aumento da utilização de veículos elétricos, usuários e empresas enfrentam dificuldades para acompanhar informações importantes relacionadas ao consumo de energia, custos operacionais e planejamento de recargas.
@@ -118,7 +128,7 @@ O BrazilVoltz encontra-se atualmente na fase de MVP (Minimum Viable Product), di
 ### Passo 1 – Obter o Projeto
 
 ```bash
-git clone https://github.com/WDguiz/Brasilvoltz_MVP.git
+git clone https://github.com/guilhermerobertodesouza01-hue/Brasilvoltz_MVP.git
 ```
 
 ### Passo 2 – Abrir o Projeto
@@ -146,6 +156,15 @@ BrazilVoltz/
 ├── index.html
 ```
 
+### Arquivos Principais
+
+| Arquivo         | Descrição                                               |
+| --------------- | ------------------------------------------------------- |
+| README.md       | Documentação principal do projeto                       |
+| LICENSE         | Licença GNU Affero General Public License v3.0 (AGPLv3) |
+| CONTRIBUTING.md | Guia de contribuição da comunidade                      |
+| index.html      | MVP demonstrativo do sistema                            |
+
 ---
 
 ## 🤝 Contribuição
@@ -154,7 +173,7 @@ O projeto segue os princípios do Modelo Bazar de desenvolvimento Open Source.
 
 Contribuições da comunidade são incentivadas por meio de sugestões, correções, melhorias e novas funcionalidades.
 
-Consulte o arquivo `CONTRIBUTING.md` para mais informações.
+Consulte o arquivo **CONTRIBUTING.md** para mais informações.
 
 ---
 
@@ -162,7 +181,7 @@ Consulte o arquivo `CONTRIBUTING.md` para mais informações.
 
 Este projeto está licenciado sob os termos da GNU Affero General Public License v3.0 (AGPLv3).
 
-Consulte o arquivo `LICENSE` para detalhes.
+Consulte o arquivo **LICENSE** para detalhes.
 
 ---
 
@@ -183,4 +202,3 @@ O BrazilVoltz adota uma abordagem colaborativa baseada em:
 Projeto acadêmico desenvolvido para a disciplina de Software Livre e Open Source.
 
 **BrazilVoltz © 2026**
-
