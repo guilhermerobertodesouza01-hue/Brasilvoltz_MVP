@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrazilVoltz MVP</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+    margin:0;
+    padding:0;
+}
+header{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+    font-size:28px;
+    font-weight:bold;
+}
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:20px;
+}
+.card{
+    background:#1e293b;
+    border-radius:18px;
+    padding:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+.card h2{
+    margin-top:0;
+}
+.info{
+    font-size:18px;
+    margin:10px 0;
+}
+.button{
+    background:#22c55e;
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+}
+.premium{
+    border:2px solid gold;
+}
+.map{
+    background:#334155;
+    height:180px;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:10px;
+}
+.small{
+    font-size:14px;
+    color:#cbd5e1;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+BrazilVoltz — MVP Demonstrativo
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Home do Aplicativo</h2>
+<div class="info">🔋 Bateria Atual: 68%</div>
+<div class="info">⚡ Autonomia Estimada: 312 km</div>
+<div class="info">💰 Economia no mês: R$ 482,00</div>
+<div class="info">📅 Próxima recarga recomendada: 29/05</div>
+<div class="button">Iniciar Monitoramento</div>
+</div>
+
+<div class="card">
+<h2>Relatório de Abastecimento</h2>
+<div class="info">Última recarga: 24 kWh</div>
+<div class="info">Custo: R$ 38,90</div>
+<div class="info">Tempo de carregamento: 1h 42min</div>
+<div class="info">Local: Curitiba Shopping Station</div>
+<div class="button">Ver Histórico Completo</div>
+</div>
+
+<div class="card">
+<h2>Cálculo Inteligente</h2>
+<div class="info">Consumo médio: 0,17 kWh/km</div>
+<div class="info">Custo médio por km: R$ 0,12</div>
+<div class="info">Previsão mensal: R$ 326,00</div>
+<div class="button">Simular Nova Viagem</div>
+</div>
+
+<div class="card premium">
+<h2>Premium — Mapa Inteligente</h2>
+<div class="map">🗺️ Mapa de carregadores próximos</div>
+<div class="small">
+• Disponibilidade em tempo real<br>
+• Melhor preço da região<br>
+• Rotas inteligentes<br>
+• Avaliação de usuários
+</div>
+<div class="button">Explorar Estações</div>
+</div>
+
+<div class="card premium">
+<h2>Premium — Relatórios Avançados</h2>
+<div class="info">📊 Eficiência da bateria: 91%</div>
+<div class="info">📈 Tendência de consumo: Estável</div>
+<div class="info">🌱 CO₂ economizado: 184 kg</div>
+<div class="info">🔧 Vida útil estimada: 7,2 anos</div>
+<div class="button">Abrir Dashboard</div>
+</div>
+
+<div class="card premium">
+<h2>Premium — Integração Empresarial</h2>
+<div class="info">🚚 Controle de frotas</div>
+<div class="info">📡 Monitoramento em nuvem</div>
+<div class="info">🏢 Painel corporativo</div>
+<div class="info">📑 Relatórios financeiros</div>
+<div class="button">Acessar Área Empresarial</div>
+</div>
+
+</div>
+
+<footer>
+BrazilVoltz MVP — Protótipo acadêmico demonstrativo
+</footer>
+
+</body>
+</html>
